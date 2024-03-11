@@ -1,8 +1,8 @@
 import java.util.Scanner;
-
+//class Odd_Even_using_complement used to check given number is odd or even based on its complement. 
 public class Odd_Even_using_complement {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // Taking user input
         int num, num1;
         
         // Prompt user to input a number
