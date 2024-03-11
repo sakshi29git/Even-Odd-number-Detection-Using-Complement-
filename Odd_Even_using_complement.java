@@ -12,16 +12,18 @@ public class Odd_Even_using_complement {
         // Calculate one's complement of the input number
         num1 = ~num;
         
-        // Loop to check if the one's complement is zero (to determine odd or even)
+        // checking wheather one's complement of number is even or odd by dividing number by 2 and determining whether its completely divisible or not.
         while (num1 != 0) {
             num1 = num1 / 2;
         }
         
-        // Check if the one's complement is zero to determine odd or even
-        if (num1 == 0) {
-            System.out.println("Odd");
+        // Check if the one's complement is in even or odd form to determine given number is odd or odd number
+        if (num1 == 0) { // if num1 is 0, its odd number
+            System.out.println("Odd Number");
         } else {
-            System.out.println("Even");
+            System.out.println("Even Number"); //if num1 is not 0, then its even number
         }
+
+    
     }
 }
