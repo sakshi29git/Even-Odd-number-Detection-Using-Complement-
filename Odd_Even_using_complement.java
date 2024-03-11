@@ -4,14 +4,13 @@ public class Odd_Even_using_complement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Taking user input
         int num, num1;
-        
         // Prompt user to input a number
         System.out.println("Enter number:");
         num = sc.nextInt();
         
         // Calculate one's complement of the input number
         num1 = ~num;
-        
+
         // checking wheather one's complement of number is even or odd by dividing number by 2 and determining whether its completely divisible or not.
         while (num1 != 0) {
             num1 = num1 / 2;
