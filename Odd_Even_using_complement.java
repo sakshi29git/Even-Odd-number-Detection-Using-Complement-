@@ -18,9 +18,9 @@ public class Odd_Even_using_complement {
         
         // Check if the one's complement is in even or odd form to determine given number is odd or odd number
         if (num1 == 0) { // if num1 is 0, its odd number
-            System.out.println("Odd Number");
+            System.out.println(num + " Is Odd Number");
         } else {
-            System.out.println("Even Number"); //if num1 is not 0, then its even number
+            System.out.println(num + " Is Even Number"); //if num1 is not 0, then its even number
         }
 
     
